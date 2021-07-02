@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'primeng-calendar-get-year';
+  value: Date;
+  year: string;
+
+  constructor() {
+    let initialDate = new Date();
+    initialDate.setFullYear(2021);
+    initialDate.setMonth(11);
+    initialDate.setDate(31);
+    this.value = initialDate;
+    this.year = "";
+  }
+
+  onSelect(value: Date): void {
+    this.year = value.getFullYear().toString();
+  }
 }
