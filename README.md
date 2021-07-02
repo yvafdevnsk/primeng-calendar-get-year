@@ -1,27 +1,38 @@
-# PrimengCalendarGetYear
+# PrimeNGのカレンダーで選択された年を取得する
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+Angular CLI 12.1.1  
+PrimeNG 12.0.0  
+PrimeIcons 4.1.0
 
-## Development server
+## プロジェクトを取得する
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+EclipseのGit Repositoriesビュー  
 
-## Code scaffolding
+```
+Location:
+    Host: github.com
+    Repository path: /yvafdevnsk/primeng-calendar-get-year
+Connection:
+    Protocol: HTTPS
+    Port: (empty)
+Authenticaion:
+    User: (empty)
+    Password: (empty)
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+Destination:
+    /home/mizuki/workspace/repository/primeng-calendar-get-year
+```
 
-## Build
+## プロジェクトをビルドして実行する
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+cd /home/mizuki/workspace/repository/primeng-calendar-get-year
+npm install
+npx ng serve --open
+```
 
-## Running unit tests
+## 実行結果
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![bVirtualBox_debian108_02_07_2021_22_57_06](https://user-images.githubusercontent.com/10959860/124285990-71222e00-db89-11eb-86bd-dc8c534c4544.png)
